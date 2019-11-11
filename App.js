@@ -25,7 +25,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-  console.log("I am a console statement");
+  console.log("Welcome to C308 Lesson 04 quiz!");
+  console.log("Your component here");
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -41,11 +42,9 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text>Recommended Eats @ RP</Text>
-              <Text style={styles.sectionTitle}>Sweet Tooth Waffles</Text>
-              <Text style={styles.sectionDescription}>
-                has waffles with cornflakes and chocolate spread, other than usual fillings such as kaya and peanut butter</Text>
-              <Text style={styles.highlight}>W6 Level 1, E-canteen</Text>
+              <Text style={styles.sectionTitle}>Set Pickup Time</Text>
+              <Text style={styles.sectionDescription}>Set a time you would like us to arrive at your pickup location</Text>
+              <Text style={styles.highlight}>RP Furniture Shop</Text>
 
             </View>
             <View style={styles.sectionContainer}>
