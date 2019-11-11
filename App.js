@@ -25,6 +25,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
+  console.log("I am a console statement");
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -40,12 +41,12 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text>Welcome to C308 Web Frameworks!</Text>
-              <Text style={styles.sectionTitle}>Step One</Text>
+              <Text>Recommended Eats @ RP</Text>
+              <Text style={styles.sectionTitle}>Sweet Tooth Waffles</Text>
               <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
-              </Text>
+                has waffles with cornflakes and chocolate spread, other than usual fillings such as kaya and peanut butter</Text>
+              <Text style={styles.highlight}>W6 Level 1, E-canteen</Text>
+
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>See Your Changes</Text>
